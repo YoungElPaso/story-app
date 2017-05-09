@@ -1,0 +1,22 @@
+{
+  "name": "sound-merge",
+  "version": "0.0.1",
+  "description": "A utility to merge a bunch of audio files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "nodemon index.js --exec babel-node --presets es2015"
+  },
+  "keywords": [
+    "audio"
+  ],
+  "author": "Jesse Sutherland",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "concat-files": "^0.1.1",
+    "glob": "^7.1.1",
+    "nodemon": "^1.11.0"
+  }
+}
